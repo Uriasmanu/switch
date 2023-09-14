@@ -11,9 +11,22 @@ public class switchCase {
         int opcaos;
 
         JOptionPane.showMessageDialog("Escolha uma opção : ");
-        opcaos = Integer.parseInt(JOptionPane.showMessageDialog("1. Cadastrar usuário /n
+        opcaos = Integer.parseInt(JOptionPane.showInputDialog("1. Cadastrar usuário /n
         2. Alterar dados /n
         3. Excluir Usuário");
         
+        Switch(opcaos){
+            case 1:
+                JOptionPane.showMessageDialog("Você clicou na opão 1. Cadastrar usuário");
+            break;
+
+            case 2:
+                JOptionPane.showMessageDialog("Você clicou na opão 2. Alterar dados");
+            break;
+
+            case 3:
+                JOptionPane.showMessageDialog("Você clicou na opão 3. Excluir Usuário");
+            break;
+        }
     }
 }
