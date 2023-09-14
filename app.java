@@ -27,6 +27,10 @@ public class switchCase {
             case 3:
                 JOptionPane.showMessageDialog("Você clicou na opão 3. Excluir Usuário");
             break;
+
+            default:
+                JOptionPane.showMessageDialog("Opção invalida");
+            break;
         }
     }
 }
